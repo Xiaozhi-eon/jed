@@ -738,6 +738,7 @@ JPGImage* readJPG(const std::string& filename) {
         std::cout << "Error - Error opening input file\n";
         return nullptr;
     }
+    
 
     JPGImage* image = new (std::nothrow) JPGImage;
     if (image == nullptr) {
